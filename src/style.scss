@@ -1,15 +1,23 @@
+$orange: #FF9F1C;
+$light-orange: #FFBF69;
+$white: #FFFFFF;
+$teal: #2EC4B6;
+$light-teal: #CBF3F0;
+
+
 div{
   border: 1px solid black;
   font-weight: bold;
 }
 
 #nav {
-  background-color: slategray;
+  background-color: $orange;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .nav-item{
+  background-color: $light-orange;
   padding: 20px;
   margin: 10px;
 }
