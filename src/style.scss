@@ -4,20 +4,40 @@ $white: #FFFFFF;
 $teal: #2EC4B6;
 $light-teal: #CBF3F0;
 
-
-div{
-  border: 1px solid black;
-  font-weight: bold;
+@font-face{
+  font-family: 'coco-sharp';
+  src: url('./Assets/cocosharp/Coco-Sharp-Regular-trial.ttf');
+  font-weight: 600;
+  font-style: normal;
 }
 
+*{
+  font-family: 'coco-sharp';
+}
+
+
 #nav {
+  margin: 0;
   background-color: $orange;
   display: flex;
-  flex-direction: row;
+  width: 100%;
   align-items: center;
 }
 .nav-item{
-  background-color: $light-orange;
+  background-color: $orange;
   padding: 20px;
   margin: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // font-weight: bold;
+  // font-family: 'coco-sharp';
+
+  border: 1px solid black;
+  border-radius: 10px;
+  &:hover{
+    padding: 22px;
+    background-color: $light-orange;
+  }
 }
