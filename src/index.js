@@ -3,7 +3,7 @@
 // const content = document.getElementById('content');
 
 import home from './home.js';
-import './style.css';
+import './style.scss';
 
 // function render_component(){
   const content = document.getElementById('content');
