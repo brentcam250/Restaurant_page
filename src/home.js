@@ -12,6 +12,7 @@
 // export default function home(){
 //   console.log('i get called from home');
 // }
+// import pizzaSign from './Assets/images/pizza-sign.jpg';
 import pizza from './Assets/images/pizza1.jpg';
 
 export default function home(){
@@ -44,7 +45,7 @@ export default function home(){
   let link = document.createElement('a');
   link.innerHTML = "Brent";
   link.href = 'https://github.com/brentcam250';
-  // footer.classList.add('container');
+  footer.classList.add('footer');
   footer.appendChild(link);
   // footer.classList.add('container');
 
