@@ -37,7 +37,20 @@ $light-teal: #CBF3F0;
   border: 1px solid black;
   border-radius: 10px;
   &:hover{
-    padding: 22px;
+    // padding: 22px;
     background-color: $light-orange;
+  }
+}
+
+.container{
+  border: 1px solid black;
+  display:flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .content{
+    border: 1px solid black;
+    width: 60%;
+    min-height: 500px;
   }
 }
