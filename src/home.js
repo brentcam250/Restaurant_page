@@ -32,17 +32,22 @@ export default function home(){
   let title = document.createElement('h1');
   title.innerHTML = "Welcome to PizzaPalace!"
   home.appendChild(title);
+
   // let photo = document.createElement('img');
   const photo = new Image();
   photo.src = pizza;
 
   home.appendChild(photo);
 
-  let test = document.createElement('div');
-  test.innerHTML = 'Hello inside';
-  test.classList.add('content');
-  test.classList.add('container');
+  let footer = document.createElement('div');
+  footer.innerHTML = 'Written by ';
+  let link = document.createElement('a');
+  link.innerHTML = "Brent";
+  link.href = 'https://github.com/brentcam250';
+  // footer.classList.add('container');
+  footer.appendChild(link);
+  // footer.classList.add('container');
 
-  home.appendChild(test);
+  home.appendChild(footer);
   return home;
 }

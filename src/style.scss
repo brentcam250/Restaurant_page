@@ -43,10 +43,12 @@ $light-teal: #CBF3F0;
 }
 
 .container{
+
   border: 1px solid black;
   display:flex; 
   flex-direction: column;
   align-items: center;
+  min-height: 1000px;
   // justify-content: center;
   .content{
     border: 1px solid black;
@@ -54,8 +56,9 @@ $light-teal: #CBF3F0;
     min-height: 100px;
   }
   img{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
   }
 
 }
