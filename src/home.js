@@ -18,7 +18,7 @@ import pizza from './Assets/images/pizza1.jpg';
 export default function home(){
   let home = document.createElement('div');
   home.classList.add('container');
-
+  // home.setAttribute('id', 'content');
   // order div 
   let order = document.createElement('div');
   order.classList.add('order');
