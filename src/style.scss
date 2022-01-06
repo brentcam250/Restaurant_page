@@ -138,16 +138,21 @@ $light-teal: #CBF3F0;
 }
 
 .pizza_background{
-  // background-color: $light-teal;
   background: url('./Assets/images/pizza-sign.jpg');
-  // background-repeat: no-repeat;
   background-size: contain;
-  // min-height: 1500px;
 }
-// .home{
-//   min-height: 1000px;
-// }
 
-// .footer{
-//   align-self: flex-end;
-// }
+.hot_pizza{
+  background: url('./Assets/images/hot-pizza.jpg');
+  background-size: contain;
+  min-height: 800px;
+
+}
+.contact_card {
+  margin-top: 30px;
+  background-color: $light-teal;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px $teal;
+  padding: 10px;
+}
