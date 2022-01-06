@@ -19,21 +19,27 @@ export default function home(){
   let home = document.createElement('div');
   home.classList.add('container');
   home.classList.add('home');
+  home.classList.add('pizza_background');
+
+
 
   // home.setAttribute('id', 'content');
   // order div 
-  let order = document.createElement('div');
-  order.classList.add('order');
-  let delivery_btn = document.createElement('button');
-  delivery_btn.innerHTML = "Order Delivery!";
-  let pickup_btn = document.createElement('button');
-  pickup_btn.innerHTML = "Order Pickup!";
-  order.appendChild(delivery_btn);
-  order.appendChild(pickup_btn);
-  home.appendChild(order);
+  // let order = document.createElement('div');
+  // order.classList.add('order');
+  // let delivery_btn = document.createElement('button');
+  // delivery_btn.innerHTML = "Order Delivery!";
+  // delivery_btn.id = 'delivery';
+  // let pickup_btn = document.createElement('button');
+  // pickup_btn.innerHTML = "Order Pickup!";
+  // pickup_btn.id = 'pickup';
+  // order.appendChild(delivery_btn);
+  // order.appendChild(pickup_btn);
+  // home.appendChild(order);
 
   let title = document.createElement('h1');
   title.innerHTML = "Welcome to PizzaPalace!"
+  title.style.color = 'white';
   home.appendChild(title);
 
   // let photo = document.createElement('img');
@@ -48,6 +54,7 @@ export default function home(){
   link.innerHTML = "Brent";
   link.href = 'https://github.com/brentcam250';
   footer.classList.add('footer');
+  footer.classList.add('contact_card');
   footer.appendChild(link);
   // footer.classList.add('container');
 

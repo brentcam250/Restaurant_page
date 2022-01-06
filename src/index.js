@@ -29,12 +29,9 @@ function render(component){
   // content.appendChild(component);
   switch (component){
     case 'home':
-      console.log(`Honey I'm home `);
-
       content.appendChild(home());
       break;
     case 'menu':
-      console.log(`MENu clicked `);
       content.appendChild(menu());
       break;
     case 'contact':
@@ -42,7 +39,6 @@ function render(component){
       // console.log('build contact page');
       break;
     default:
-      console.log(`${component} clicked `);
 
   }
 }

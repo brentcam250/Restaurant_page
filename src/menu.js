@@ -68,7 +68,6 @@ export default function menu(){
 
 function fill_menu_section(key){  
   let options = menu_hash[key];
-  console.log(options);
   let section = document.createElement('div');
   section.classList.add('container');
   let list = document.createElement('ul');
