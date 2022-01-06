@@ -112,11 +112,12 @@ $light-teal: #CBF3F0;
   button{
     margin: 10px;
     padding: 20px;
-    background-color: $teal;
+    background-color: $light-teal;
+    box-shadow: 5px 5px 5px $teal;  
     border-radius: 5px;
     outline: none;
     &:hover {
-      background-color: $light-teal;
+      background-color: $teal;
     }
   }
 }
