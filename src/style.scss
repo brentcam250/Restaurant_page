@@ -1,8 +1,37 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+
+// End Reset
+
 $orange: #FF9F1C;
 $light-orange: #FFBF69;
 $white: #FFFFFF;
 $teal: #2EC4B6;
 $light-teal: #CBF3F0;
+
 
 @font-face{
   font-family: 'coco-sharp';
@@ -67,7 +96,9 @@ $light-teal: #CBF3F0;
   }
   section {
     border: 1px solid black;
-    // padding: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px $teal;
+    padding: 10px;
   }
 
 }
@@ -96,10 +127,22 @@ $light-teal: #CBF3F0;
   align-items: stretch;
   min-width: 400px;
   section{
+    background-color: $light-teal;
     flex: 1 ;
     margin: 10px;
   }
+  li{
+    list-style: square;
+  }
 
+}
+
+.pizza_background{
+  // background-color: $light-teal;
+  background: url('./Assets/images/pizza-sign.jpg');
+  // background-repeat: no-repeat;
+  background-size: contain;
+  // min-height: 1500px;
 }
 // .home{
 //   min-height: 1000px;

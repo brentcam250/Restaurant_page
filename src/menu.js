@@ -8,6 +8,9 @@ menu_hash['drinks'] = ['Rootbeer', 'Coke', 'Ginger Ale', 'House Wine'];
 export default function menu(){
   let menu = document.createElement('div');
   menu.classList.add('container');
+  menu.classList.add('pizza_background');
+
+
 
   // if del_or_pickup{
   //   console.log(`ordering ${del_or_pickup}`);
@@ -16,6 +19,7 @@ export default function menu(){
 
   let title = document.createElement('h1');
   title.innerHTML = "PizzaPalace Menu"
+  title.style.color = 'white';
   menu.appendChild(title);
 
   let menu_container = document.createElement('div');
